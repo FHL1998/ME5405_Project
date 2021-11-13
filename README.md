@@ -4,7 +4,7 @@ Before execute the project, please add all folders and subfolders to the MATLAB 
 - For Chromosome Image1 (`chromo.txt`), the main function file is `chromo.m`
 - For Characters Image2 (`charact1.txt`), the main function file is `charact1.m`
 
-## Classification Task
+## Classification Task ![maven](https://img.shields.io/badge/Conventional-Classification-important)
 All 3 methods K-NN, SOM, and SVM are implemented, and the source code are placed in the folder `Classification`.
 ### SVM
 The dataset was transfered from `.mat` to `.png` with binarization operation.
