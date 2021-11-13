@@ -1,12 +1,3 @@
 # ME5405_Project
 ## Project Execution
-
-
-
-
-
-
-
-
-
-hello
+For Chromosome(chromo.txt)
