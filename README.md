@@ -23,3 +23,23 @@ KNN_Run_this.m
 - To run the KNN-Classifier, the paths of the training data are needed to be changed to your local path. The 'Sample' files are the set used to train while the 'TestingSet; is used to test. The output will be the accuracy.
 - The second part applies trained KNN classifier to determine the characters we obtain in the previous task as rearranged.mat. The output will be the corrsponding label of each input. 
   >Noted: The label A B C are labeled as 4 5 6 correspondingly.
+
+##  SOM
+
+### content:
+- `Sample1` ~`SampleC` : dataset (mat.file) of each character(1, 2, 3, A, B, C).
+- `Testingset`: validation set.
+- `mat_file_load.m`: Matlab script to read and load the training set and validation set.
+- `SOM_training.m`: Matlab script to train SOM classifier.
+- `SOM_validation.m`: Matlab script to do the validation.
+- `SOM_confusion_matrix.m`: Matlab script to visualize the confusion matrix.
+- `SOM_testing.m`: Matlab script to test the recognization for characters in 'charact1.txt'.
+
+### to run the following files in sequence to realize the classification:
+
+```matlab
+mat_file_load.m
+SOM_training.m
+SOM_validation.m
+SOM_testing.m
+```
