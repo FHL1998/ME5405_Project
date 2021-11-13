@@ -24,9 +24,9 @@ KNN_Run_this.m
 - The second part applies trained KNN classifier to determine the characters we obtain in the previous task as rearranged.mat. The output will be the corrsponding label of each input. 
   >Noted: The label A B C are labeled as 4 5 6 correspondingly.
 
-##  SOM
+### SOM
 
-### content:
+#### API:
 - `Sample1` ~`SampleC` : dataset (mat.file) of each character(1, 2, 3, A, B, C).
 - `Testingset`: validation set.
 - `mat_file_load.m`: Matlab script to read and load the training set and validation set.
@@ -35,7 +35,7 @@ KNN_Run_this.m
 - `SOM_confusion_matrix.m`: Matlab script to visualize the confusion matrix.
 - `SOM_testing.m`: Matlab script to test the recognization for characters in 'charact1.txt'.
 
-### to run the following files in sequence to realize the classification:
+#### to run the following files in sequence to realize the classification:
 
 ```matlab
 mat_file_load.m
