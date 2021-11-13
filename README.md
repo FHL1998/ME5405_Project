@@ -27,7 +27,7 @@ KNN_Run_this.m
 ### SOM
 
 #### API:
-- `Sample1` ~`SampleC` : dataset (mat.file) of each character(1, 2, 3, A, B, C).
+- `Sample1` ~`SampleC` : dataset (`.mat`) of each character(1, 2, 3, A, B, C).
 - `Testingset`: validation set.
 - `mat_file_load.m`: Matlab script to read and load the training set and validation set.
 - `SOM_training.m`: Matlab script to train SOM classifier.
