@@ -35,7 +35,7 @@ KNN_Run_this.m
 - `SOM_confusion_matrix.m`: Matlab script to visualize the confusion matrix.
 - `SOM_testing.m`: Matlab script to test the recognization for characters in 'charact1.txt'.
 
-#### to run the following files in sequence to realize the classification:
+#### To run the following files in sequence to realize the classification:
 
 ```matlab
 mat_file_load.m
